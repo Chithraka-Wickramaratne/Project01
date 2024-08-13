@@ -94,148 +94,175 @@ export default function ReportPage() {
 
       {/* Table */}
       <div class="relative overflow-x-auto shadow-md sm:rounded-lg mx-auto max-w-6xl mt-8">
-    <table class="w-full text-sm text-left rtl:text-right text-black h-1/2">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-blue-950 dark:text-gray-400">
+        <table class="w-full text-sm text-left rtl:text-right text-black h-1/2">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-blue-950 dark:text-gray-400">
             <tr>
-                <th scope="col" class="px-6 py-3">Full Name</th>
-                <th scope="col" class="px-6 py-3">Age</th>
-                <th scope="col" class="px-6 py-3">Test</th>
-                <th scope="col" class="px-6 py-3">ID</th>
-                <th scope="col" class="px-6 py-3">Mobile</th>
-                <th scope="col" class="px-6 py-3">E-mail</th>
-                <th scope="col" class="px-6 py-3">Report</th>
+              <th scope="col" class="px-6 py-3">
+                Full Name
+              </th>
+              <th scope="col" class="px-6 py-3">
+                Age
+              </th>
+              <th scope="col" class="px-6 py-3">
+                Test
+              </th>
+              <th scope="col" class="px-6 py-3">
+                ID
+              </th>
+              <th scope="col" class="px-6 py-3">
+                Mobile
+              </th>
+              <th scope="col" class="px-6 py-3">
+                E-mail
+              </th>
+              <th scope="col" class="px-6 py-3">
+                Report
+              </th>
             </tr>
-        </thead>
-        <tbody class="bg-gray-100">
+          </thead>
+          <tbody class="bg-gray-100">
             <tr class="border-b">
-                <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap">
-                Saman Perera 
-                </th>
-                <td class="px-6 py-4">54</td>
-                <td class="px-6 py-4">Abdominal CT Scan</td>
-                <td class="px-6 py-4">001</td>
-                <td class="px-6 py-4">071-6754321</td>
-                <td class="px-6 py-4">samanperera@gmail.com</td>
-                <td class="px-6 py-4">
-                  {/* Download Pdf */}
-                  <a
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap"
+              >
+                Saman Perera
+              </th>
+              <td class="px-6 py-4">54</td>
+              <td class="px-6 py-4">Abdominal CT Scan</td>
+              <td class="px-6 py-4">001</td>
+              <td class="px-6 py-4">071-6754321</td>
+              <td class="px-6 py-4">samanperera@gmail.com</td>
+              <td class="px-6 py-4">
+                {/* Download Pdf */}
+                <a
                   href="#"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Download Report
                 </a>
-                </td>
+              </td>
             </tr>
             <tr class="border-b">
-                <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap">
-                  Nimal Hettiarachchi  
-                </th>
-                <td class="px-6 py-4">47</td>
-                <td class="px-6 py-4">Heart MRI</td>
-                <td class="px-6 py-4">002</td>
-                <td class="px-6 py-4">076-8953723</td>
-                <td class="px-6 py-4">nimalhettiarachchi@gmail.com</td>
-                <td class="px-6 py-4">
-                  {/* Download Pdf */}
-                  <a
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap"
+              >
+                Nimal Hettiarachchi
+              </th>
+              <td class="px-6 py-4">47</td>
+              <td class="px-6 py-4">Heart MRI</td>
+              <td class="px-6 py-4">002</td>
+              <td class="px-6 py-4">076-8953723</td>
+              <td class="px-6 py-4">nimalhettiarachchi@gmail.com</td>
+              <td class="px-6 py-4">
+                {/* Download Pdf */}
+                <a
                   href="#"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Download Report
                 </a>
-                </td>
+              </td>
             </tr>
             <tr class="border-b">
-                <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap">
-                  Kamal Amarasiri
-                </th>
-                <td class="px-6 py-4">36</td>
-                <td class="px-6 py-4">PET Scan</td>
-                <td class="px-6 py-4">003</td>
-                <td class="px-6 py-4">078-3651377</td>
-                <td class="px-6 py-4">kamalamarasiri@gmail.com</td>
-                <td class="px-6 py-4">
-                  {/* Download Pdf */}
-                  <a
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap"
+              >
+                Kamal Amarasiri
+              </th>
+              <td class="px-6 py-4">36</td>
+              <td class="px-6 py-4">PET Scan</td>
+              <td class="px-6 py-4">003</td>
+              <td class="px-6 py-4">078-3651377</td>
+              <td class="px-6 py-4">kamalamarasiri@gmail.com</td>
+              <td class="px-6 py-4">
+                {/* Download Pdf */}
+                <a
                   href="#"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Download Report
                 </a>
-                </td>
+              </td>
             </tr>
             <tr class="border-b">
-                <th scope="row" class="px-6 py-4 font-medium text-black whitespace-nowrap">
-                   Amal Bogahawatte 
-                </th>
-                <td class="px-6 py-4">29</td>
-                <td class="px-6 py-4">Vitamin A Blood Test</td>
-                <td class="px-6 py-4">004</td>
-                <td class="px-6 py-4">074-3753957</td>
-                <td class="px-6 py-4">amalbogahawatte@gmail.com</td>
-                <td class="px-6 py-4">
-                  {/* Download Pdf */}
-                  <a
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-black whitespace-nowrap"
+              >
+                Amal Bogahawatte
+              </th>
+              <td class="px-6 py-4">29</td>
+              <td class="px-6 py-4">Vitamin A Blood Test</td>
+              <td class="px-6 py-4">004</td>
+              <td class="px-6 py-4">074-3753957</td>
+              <td class="px-6 py-4">amalbogahawatte@gmail.com</td>
+              <td class="px-6 py-4">
+                {/* Download Pdf */}
+                <a
                   href="#"
                   class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Download Report
                 </a>
-                </td>
+              </td>
             </tr>
-        </tbody>
-    </table>
+          </tbody>
+        </table>
+      </div>
+      {/* Buttons*/}
+      <div className="flex justify-center items-center mt-10">
+        <table className="text-sm text-left rtl:text-right text-black">
+          <tr>
+            <td>
+              <button
+                type="button"
+                className="py-2.5 px-12 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Add
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 text- dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Search
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Update
+              </button>
+            </td>
+            <td>
+              <button
+                type="button"
+                className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </table>
+      </div>
 
-</div>
-{/* Buttons*/}
-<div className="flex justify-center items-center mt-10">
-  <table className="text-sm text-left rtl:text-right text-black">
-    <tr>
-    <td>
-  <button
-    type="button"
-    className="py-2.5 px-12 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-  >
-    Add
-  </button>
-</td>
-<td>
-  <button
-    type="button"
-    className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 text- dark:hover:text-white dark:hover:bg-gray-700"
-  >
-    Search
-  </button>
-</td>
-<td>
-  <button
-    type="button"
-    className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-  >
-    Update
-  </button>
-</td>
-<td>
-  <button
-    type="button"
-    className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
-  >
-    Delete
-  </button>
-</td>
+      {/* Footer*/}
 
-    </tr>
-  </table>
-</div>
-
-{/* Footer*/}
-
-
-<footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900 dark:border-gray-600">
-    <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Sakura Hospitals</a>. All Rights Reserved.
-    </span>
-</footer>
-
+      <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900 dark:border-gray-600">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2023{" "}
+          <a href="https://flowbite.com/" class="hover:underline">
+            Sakura Hospitals
+          </a>
+          . All Rights Reserved.
+        </span>
+      </footer>
     </div>
   );
 }
