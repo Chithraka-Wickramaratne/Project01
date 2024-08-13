@@ -213,13 +213,13 @@ export default function ReportPage() {
         </table>
       </div>
       {/* Buttons*/}
-      <div className="flex justify-center items-center mt-10">
+      <div className="flex justify-center items-center mt-10 mb-16 md:mb-10">
         <table className="text-sm text-left rtl:text-right text-black">
           <tr>
             <td>
               <button
                 type="button"
-                className="py-2.5 px-12 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                className="py-2.5 px-6 sm:px-10 lg:px-12 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Add
               </button>
@@ -227,7 +227,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
-                className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 text- dark:hover:text-white dark:hover:bg-gray-700"
+                className="py-2.5 px-6 sm:px-8 lg:px-10 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Search
               </button>
@@ -235,7 +235,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
-                className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                className="py-2.5 px-6 sm:px-8 lg:px-10 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Update
               </button>
@@ -243,7 +243,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
-                className="py-2.5 px-10 me-2 mb-2 text-sm font-bold text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                className="py-2.5 px-6 sm:px-8 lg:px-10 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Delete
               </button>
