@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export default function HomePage() {
   return (
@@ -6,14 +6,9 @@ export default function HomePage() {
       {/* Nav Bar */}
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="https://flowbite.com/"
-            className="flex items-center space-x-3 rtl:space-x-reverse"
-          >
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              SAKURA HOSPITALS
-            </span>
-          </a>
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            SAKURA HOSPITALS
+          </span>
           <button
             data-collapse-toggle="navbar-default"
             type="button"
@@ -137,6 +132,17 @@ export default function HomePage() {
           </div>
         </a>
       </div>
+
+      {/* Footer */}
+      <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900 dark:border-gray-600">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2023{" "}
+          <a href="https://flowbite.com/" class="hover:underline">
+            Sakura Hospitals
+          </a>
+          . All Rights Reserved.
+        </span>
+      </footer>
     </div>
   );
 }
