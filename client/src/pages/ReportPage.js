@@ -1,6 +1,30 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function ReportPage() {
+  const navigate = useNavigate();
+
+  const goToInsert = () => {
+    navigate("/insertReport");
+  };
+
+  const goToSearch = () => {
+    navigate("/searchPage");
+  };
+
+  const goToUpdate = () => {
+    navigate("/updatePageReport");
+  };
+
+  const goToDelete = () => {
+    navigate("/deletePage");
+  };
+
+  const backToHome = () => {
+    navigate("/home");
+  };
+
   return (
     <div>
       {/* Nav Bar*/}
@@ -44,6 +68,7 @@ export default function ReportPage() {
               <li>
                 <a
                   href="#"
+                  onClick={backToHome}
                   className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
                   aria-current="page"
                 >
@@ -219,6 +244,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
+                onClick={goToInsert}
                 className="py-2.5 px-6 sm:px-10 lg:px-12 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Add
@@ -227,6 +253,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
+                onClick={goToSearch}
                 className="py-2.5 px-6 sm:px-8 lg:px-10 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Search
@@ -235,6 +262,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
+                onClick={goToUpdate}
                 className="py-2.5 px-6 sm:px-8 lg:px-10 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Update
@@ -243,6 +271,7 @@ export default function ReportPage() {
             <td>
               <button
                 type="button"
+                onClick={goToDelete}
                 className="py-2.5 px-6 sm:px-8 lg:px-10 mb-2 text-xs sm:text-sm lg:text-base font-bold text-gray-900 focus:outline-none dark:bg-gray-200 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 bg-gray-200 dark:text-gray-900 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
                 Delete
